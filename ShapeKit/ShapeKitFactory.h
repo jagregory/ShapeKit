@@ -22,5 +22,6 @@
 - (ShapeKitGeometry *) geometryWithGEOSGeometry: (void *)geometry;
 - (ShapeKitGeometry *) geometryWithWKB: (NSData *)wkbData;
 - (ShapeKitGeometry *) geometryWithWKT: (NSString *)string;
+- (void *) handle;
 
 @end

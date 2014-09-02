@@ -51,6 +51,11 @@
     finishGEOS_r(handle);
 }
 
+- (void *) handle
+{
+    return handle;
+}
+
 #pragma mark -Convenience methods
 - (Class )classForGeometry: (GEOSGeometry *)geosGeom
 {
